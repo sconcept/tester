@@ -1,0 +1,492 @@
+[
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy.feature",
+    "id": "adopt-a-puppy",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "adopt-a-puppy;user-adopts-a-puppy",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage (Background)",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242340492
+            },
+            "status": "passed",
+            "duration": 1242340492
+          },
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59903
+            },
+            "status": "passed",
+            "duration": 59903
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51873530
+            },
+            "status": "passed",
+            "duration": 51873530
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3708302689
+            },
+            "status": "passed",
+            "duration": 3708302689
+          }
+        ],
+        "status": "passed",
+        "duration": 5002576614
+      }
+    ],
+    "status": "working",
+    "duration": 5002576614
+  },
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy0.feature",
+    "id": "adopt-a-puppy2",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy2",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "adopt-a-puppy2;user-adopts-a-puppy1",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy1",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage (Background)",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482404143
+            },
+            "status": "passed",
+            "duration": 1482404143
+          },
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy failed",
+            "line": 11,
+            "match": {
+              "location": "./features/features/PuppyAdoption/adopt_a_puppy0.feature:11"
+            },
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "status": "undefined",
+            "duration": 0
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41679712
+            },
+            "status": "passed",
+            "duration": 41679712
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4805391767
+            },
+            "status": "passed",
+            "duration": 4805391767
+          }
+        ],
+        "status": "undefined",
+        "duration": 6329475622
+      }
+    ],
+    "status": "incomplete",
+    "duration": 6329475622
+  },
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy1.feature",
+    "id": "adopt-a-puppy3",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy3",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "adopt-a-puppy3;user-adopts-a-puppy2",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy2",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage (Background)",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1583433791
+            },
+            "status": "passed",
+            "duration": 1583433791
+          },
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61440
+            },
+            "status": "passed",
+            "duration": 61440
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133053135
+            },
+            "status": "passed",
+            "duration": 133053135
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3342004138
+            },
+            "status": "passed",
+            "duration": 3342004138
+          }
+        ],
+        "status": "passed",
+        "duration": 5058552504
+      }
+    ],
+    "status": "working",
+    "duration": 5058552504
+  },
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy2.feature",
+    "id": "adopt-a-puppy4",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy4",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "adopt-a-puppy4;user-adopts-a-puppy3",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy3",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage (Background)",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1284951267
+            },
+            "status": "passed",
+            "duration": 1284951267
+          },
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51967
+            },
+            "status": "passed",
+            "duration": 51967
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40868456
+            },
+            "status": "passed",
+            "duration": 40868456
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5408163605
+            },
+            "status": "passed",
+            "duration": 5408163605
+          }
+        ],
+        "status": "passed",
+        "duration": 6734035295
+      }
+    ],
+    "status": "working",
+    "duration": 6734035295
+  },
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy3.feature",
+    "id": "adopt-a-puppy5",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy5",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "adopt-a-puppy5;user-adopts-a-puppy4",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy4",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage (Background)",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1322619243
+            },
+            "status": "passed",
+            "duration": 1322619243
+          },
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146431
+            },
+            "status": "passed",
+            "duration": 146431
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43721291
+            },
+            "status": "passed",
+            "duration": 43721291
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4299557714
+            },
+            "status": "passed",
+            "duration": 4299557714
+          }
+        ],
+        "status": "passed",
+        "duration": 5666044679
+      }
+    ],
+    "status": "working",
+    "duration": 5666044679
+  }
+]

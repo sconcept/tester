@@ -1,1 +1,1 @@
-htmlreport: --format PrettyFace::Formatter::Html --out index.html
+parallel: --format json --out testartifacts/results/scenario<%= ENV['TEST_ENV_NUMBER']%>.json

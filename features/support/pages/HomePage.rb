@@ -7,4 +7,8 @@ class HomePage
 
 
 
+   def select_a_puppy()
+    
+   end
+
 end

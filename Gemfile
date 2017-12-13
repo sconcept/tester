@@ -2,17 +2,16 @@ source 'https://rubygems.org'
 #ruby '2.4.2'
 
 # Dependency of gem files (Keep in alphabetical order) =>
-gem 'cucumber' # Cucumber/Gherkin syntax
 gem 'page-object' # Applying page object design pattern
 gem 'parallel_tests' # Concurrent testing Capabilities
 gem 'pry' #ruby debugging
 gem 'rake' # Build/tasks and dependencies (Ruby's answer to javas Maven)
-gem 'report_builder' #.json to html frontend
 gem 'rspec-expectations' # expect syntax
 gem 'dotenv' # loads environment variables on startup from .env file
 gem 'watir'
 gem 'selenium-webdriver'
-gem 'pretty_face' # reporting
+gem 'cucumber'
+gem 'report_builder'
 
 # Test Data Gems =>
 gem 'factory_girl' # test data factory

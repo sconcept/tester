@@ -1,0 +1,97 @@
+[
+  {
+    "uri": "./features/features/PuppyAdoption/adopt_a_puppy.feature",
+    "id": "adopt-a-puppy",
+    "keyword": "Feature",
+    "name": "Adopt A Puppy",
+    "description": "  As a brilliant and caring individual\n  I want to be able to adopt a puppy\n  So that I can do a lil' good in the world",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3708302689
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the adopt puppy homepage",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242340492
+            }
+          }
+        ]
+      },
+      {
+        "id": "adopt-a-puppy;user-adopts-a-puppy",
+        "keyword": "Scenario",
+        "name": "User adopts a puppy",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I adopt a puppy",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59903
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51873530
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

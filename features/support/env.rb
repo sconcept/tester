@@ -5,28 +5,20 @@ require 'dotenv'
 require 'pry'
 Dotenv.load('.env') # loads environment variables from .env file
 
-World(PageObject::PageFactory)
-
-@default_driver = 'chrome'
-@browser = nil
+  World(PageObject::PageFactory)
+  @default_driver = 'chrome'
 
 
-isGrid = ENV['RUN_LOCAL'].to_s == 'true' ? true : false
-gridUrl = ENV['SELENIUM_GRID_URL']
-driver = ENV['DRIVER']
 
-Before do |scenario|
-  puts "Before Scenario: #{scenario.name}"
-  if !isGrid
-    if driver == 'chrome'
-      @browser = Watir::Browser.new :chrome, detach: true
-    elsif driver == 'firefox'
-      @browser = Watir::Browser.new :firefox, marionette: true
-    end
-  elsif isGrid
+  isGrid = ENV['RUN_LOCAL'].to_s == 'true' ? true : false
+  gridUrl = ENV['SELENIUM_GRID_URL']
+  driver = ENV['SELENIUM_BROWSER'].to_s.downcase
+
+
+
+  def setup_grid(driver)
     if driver == 'chrome'
       capabilities = Selenium::WebDriver::Remote::Capabilities.new
-      capabilities.browser_name = "Grid - Chrome"
       @browser = Watir::Browser.new(
       :remote,
       :url => gridUrl,
@@ -34,10 +26,25 @@ Before do |scenario|
     end
   end
 
-end
+  def setup_local(driver)
+    if driver == 'chrome'
+      @browser = Watir::Browser.new :chrome
+    elsif driver == 'firefox'
+      @browser = Watir::Browser.new :firefox, marionette: true
+    end
+  end
+
+Before do |scenario|
+  if isGrid
+    setup_local(driver)
+  end
+  if !isGrid
+     setup_grid(driver)
+  end
+  @browser.driver.manage.window.maximize
+  end
 
 After do |scenario|
-  puts "After Scenario: #{scenario.name}"
   begin
     if scenario.failed?
       Dir::mkdir('screenshots') if not File.directory?('screenshots')
