@@ -3,12 +3,25 @@ require 'page-object'
 require 'page-object/page_factory'
 require 'dotenv'
 require 'pry'
-Dotenv.load('../../.env') # loads environment variables from .env file
+Dotenv.load('.env') # loads environment variables from .env file
 
 World(PageObject::PageFactory)
 
-Before do
-  @browser = Watir::Browser.new
+@default_driver = 'chrome'
+
+
+isGrid = ENV['RUN_LOCAL'].to_s == 'true' ? true : false
+gridUrl = ENV['SELENIUM_GRID_URL']
+driver = ENV['DRIVER']
+
+Before do |scenario|
+  if !isGrid
+    if driver. == 'chrome'
+      @browser = Watir::Browser.new :"#{driver}", detach: true
+    elsif driver == 'firefox'
+      @browser = Watir::Browser.new :firefox, marionette: true
+    end
+  end
 end
 
 After do |scenario|

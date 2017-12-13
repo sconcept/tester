@@ -1,14 +1,10 @@
 class HomePage
    include PageObject
 
-   page_url "https://www.google.co.uk"
+   page_url "http://puppies.herokuapp.com/"
 
-   text_field(:search_input, :id => 'lst-ib')
-   button(:search_button, :name => 'btnK')
+   label(:notice_message, :id => 'notice')
 
-   def execute_search(text)
-     self.search_input = text
-     send_keys :enter
-   end
+
 
 end

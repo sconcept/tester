@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 #ruby '2.4.2'
 
 # Dependency of gem files (Keep in alphabetical order) =>
-gem 'cucumber', "2.0.0" # Cucumber/Gherkin syntax
+gem 'cucumber' # Cucumber/Gherkin syntax
 gem 'page-object' # Applying page object design pattern
 gem 'parallel_tests' # Concurrent testing Capabilities
 gem 'pry' #ruby debugging
