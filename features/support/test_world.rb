@@ -1,17 +1,17 @@
 class Test_World
   def initialize
-    @users = {}
+    @puppies = {}
   end
 
   def clean
-    @users.clear
+    @puppies.clear
   end
 
-  def add_user(user_alias, person)
-    @users[user_alias] = person
+  def add_user(puppy_alias, puppy)
+    @puppies[puppy_alias] = puppy
   end
 
-  def get_user(user_alias)
-    @users[user_alias]
+  def get_user(puppy_alias)
+    @puppies[puppy_alias]
   end
 end

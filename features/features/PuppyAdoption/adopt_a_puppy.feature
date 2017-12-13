@@ -7,4 +7,4 @@ Feature: Adopt A Puppy
   Background:  Given I am on the adopt puppy homepage
 
 Scenario: User adopts a puppy
-  When I adopt "Hanna"
+  When I adopt a puppy
