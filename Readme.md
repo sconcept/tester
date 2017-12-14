@@ -6,7 +6,7 @@ Note:  As you are probably already aware, ruby gems/dependencies can be quite an
 particular versions of some gems, at the moment however (14/12/2017) everything here works as expected.  I've noticed Ruby-cucumber reporting is really poor visually, allure-Rspec is maybe ok but the plugins don't function on cucumber > 2.0.0 so I plan to build a nice looking html report in 2018.
 
 Attributions:
-[Attributions](http://www.burythehammer.com/) => Used his capybara quickstarter framework as a base for this and in general a very helpful guy
+[BuryTheHammer](http://www.burythehammer.com/) => Used his capybara quickstarter framework as a base for this and in general a very helpful guy
 
 Framework features:
 - Sequential and Parallel execution using rake tasks
