@@ -1,1 +1,0 @@
-rake report_builder['testartifacts/results','testartifacts/reports/runreport']
