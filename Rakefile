@@ -23,6 +23,9 @@ Cucumber::Rake::Task.new(:smoke, 'Runs the smoke test suite') do |t|
     --tag @smoke"
 end
 
+ desc 'Parallel execution of all feature files'
+ 
+
   # Run this from jenkins / locally after you have ran parallel_cucumber and pass in both paths
  desc 'Build reporting html front end from parallel gem split json files'
  task :report_builder, [:json_path, :report_path] do |t, args|
