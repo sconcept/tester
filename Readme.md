@@ -8,7 +8,8 @@ particular versions of some gems, at the moment however (14/12/2017) everything 
 Attributions:
 [BuryTheHammer](http://www.burythehammer.com/) => Used his capybara quickstarter framework as a base for this and in general a very helpful guy
 
-Framework features:
+Framework features
+------------
 - Sequential and Parallel execution using rake tasks
 - Browserstack integration for all your cloud/config needs
 - Data aliasation with persistence across the steps
@@ -24,7 +25,6 @@ Dependencies
 ------------
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (preferably [with RVM](https://rvm.io/))
 - [Ruby bundler gem](http://bundler.io/) || `gem install bundle`
-- [Phantom.js](http://phantomjs.org/download.html)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) (optional)
 - [Chromedriver](http://chromedriver.storage.googleapis.com/index.html) (optional)
 - [SeleniumGrid](http://www.seleniumhq.org/projects/grid/) (again optional, useful to distribute tests to the hub for node selection)
