@@ -5,7 +5,10 @@ Feature: Adopt A Puppy
   So that I can do a lil' good in the world
 
   Background:
-  Given I am on the adopt puppy homepage
+  Given The order "Order A" exists
+  And I am on the homepage
+
 
   Scenario: User adopts a puppy
-  When I adopt a puppy
+  When I adopt a puppy providing "Order A"
+  Then I should see the successful adoption message

@@ -1,7 +1,19 @@
-Given(/^I am on the adopt puppy homepage$/) do
-    visit_page HomePage
-end
+  Given("The order {string} exists") do |order_alias|
+    order = Order.new
+    @test_data_world.add_order(order_alias, order)
+  end
 
-When (/^I adopt a puppy$/) do
-   on(HomePage).select_a_puppy
-end
+  Given(/^I am on the homepage$/) do
+    visit_page HomePage
+  end
+
+  When ("I adopt a puppy providing {string}") do |order_alias|
+    on(HomePage).select_a_puppy
+    on(DogInformationPage).adopt_a_puppy
+    on(CartPage).complete_adoption
+    on(OrdersPage).complete_order(@test_data_world.fetch_order(order_alias))
+  end
+
+  Then(/^I should see the successful adoption message$/) do
+    expect(@browser.text.include?('Thank you for adopting a puppy!')).to be true
+  end
