@@ -120,6 +120,7 @@ DEPENDENCIES
   factory_girl
   ffaker
   flay
+  i18n
   page-object
   parallel_tests
   pry

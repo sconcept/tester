@@ -8,10 +8,11 @@ gem 'pry' #ruby debugging
 gem 'rake' # Build/tasks and dependencies (Ruby's answer to javas Maven)
 gem 'rspec-expectations' # expect syntax
 gem 'dotenv' # loads environment variables on startup from .env file
-gem 'watir'
+gem 'watir' #wrapper on selenium to abstract out interactions
 gem 'selenium-webdriver'
-gem 'cucumber'
-gem 'report_builder'
+gem 'cucumber' #BDD/Gherkin syntax etc
+gem 'report_builder' #Turn our cucumber .json results into a html frontend
+gem 'i18n' #internationalisation / localisation for the framework
 
 # Test Data Gems =>
 gem 'factory_girl' # test data factory

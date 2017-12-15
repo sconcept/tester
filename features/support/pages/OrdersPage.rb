@@ -8,10 +8,10 @@ class OrdersPage
     button(:submit_order_btn, :value => "Place Order")
 
  def complete_order(order)
-   self.order_name = order[0]
-   self.order_address = order[1]
-   self.order_mail = order[2]
-   self.order_payment_type = order[3]
+   self.order_name = order.name
+   self.order_address = order.address
+   self.order_mail = order.email
+   self.order_payment_type = order.payment
    self.submit_order_btn
  end
 end
