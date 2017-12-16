@@ -1,0 +1,3 @@
+# Logfile created on 2017-12-16 17:07:48 +0000 by logger.rb/56815
+[2017-12-16 17:07:48952] DEBUG (): Starting scenario: User adopts a puppy two
+[2017-12-16 17:07:56468] ERROR (): User adopts a puppy two FAILED! => Logging screenshot in testartifacts/Automation_build_2017-12-16_17_07_48/test_screenshots

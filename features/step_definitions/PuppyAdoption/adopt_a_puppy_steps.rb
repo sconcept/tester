@@ -1,3 +1,4 @@
+
   Given("The order {string} exists") do |order_alias|
     order = Order.new
     @test_data_world.add_order(order_alias, order)
@@ -15,5 +16,6 @@
   end
 
   Then(/^I should see the successful adoption message$/) do
-    expect(@browser.text.include?('Thank you for adopting a puppy!')).to be true
+    puts "Vars are: #{self.instance_variables}, #{$SK}"
+    expect(@browser.text.include?("Recked")).to be true
   end
