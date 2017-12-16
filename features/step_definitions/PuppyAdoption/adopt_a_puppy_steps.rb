@@ -16,6 +16,5 @@
   end
 
   Then(/^I should see the successful adoption message$/) do
-    puts "Vars are: #{self.instance_variables}, #{$SK}"
-    expect(@browser.text.include?("Recked")).to be true
+    expect(@browser.text.include?(@locale.t('successful-adoption'))).to be true
   end

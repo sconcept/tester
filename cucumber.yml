@@ -1,1 +1,2 @@
 parallel: --format json --out testartifacts/scenario<%= ENV['TEST_ENV_NUMBER']%>.json
+default: --format json --out testartifacts/results.json

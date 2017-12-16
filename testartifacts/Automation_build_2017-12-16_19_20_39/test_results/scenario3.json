@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4352246351
+              "duration": 3863055770
             }
           },
           {
@@ -39,7 +39,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17152
+              "duration": 50944
             }
           }
         ],
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 412158
+              "duration": 1525497
             }
           },
           {
@@ -65,7 +65,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192423512
+              "duration": 1253850925
             }
           }
         ]
@@ -97,23 +97,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2422238458
+              "duration": 2494501787
             }
           },
           {
             "keyword": "Then ",
             "name": "I should see the successful adoption message",
             "line": 14,
-            "output": [
-              "Vars are: [:@__namespaced_modules, :@log, :@browser, :@test_data_world, :@current_page], "
-            ],
             "match": {
               "location": "features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:18"
             },
             "result": {
               "status": "failed",
-              "error_message": "\nexpected true\n     got false\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:20:in `/^I should see the successful adoption message$/'\n./features/features/PuppyAdoption/adopt_a_puppy.feature:14:in `Then I should see the successful adoption message'",
-              "duration": 52131331
+              "error_message": "\nexpected true\n     got false\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/PuppyAdoption/adopt_a_puppy_steps.rb:19:in `/^I should see the successful adoption message$/'\n./features/features/PuppyAdoption/adopt_a_puppy.feature:14:in `Then I should see the successful adoption message'",
+              "duration": 50360075
             }
           }
         ],
@@ -124,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15360
+              "duration": 61696
             }
           },
           {
@@ -135,11 +132,11 @@
               }
             ],
             "match": {
-              "location": "features/support/env.rb:110"
+              "location": "features/support/env.rb:111"
             },
             "result": {
               "status": "passed",
-              "duration": 345644655
+              "duration": 336345500
             }
           }
         ]
