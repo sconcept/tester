@@ -95,6 +95,7 @@ Dotenv.load('.env') # loads environment variables from .env file
 
   #Cucumber before scenario hook
   Before do |scenario|
+    @I18n = i18n
     @log = setup_logger("#{scenario.name}")
     @log.debug("Starting scenario: #{scenario.name}")
     if isGrid
