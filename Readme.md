@@ -44,6 +44,9 @@ The Stack
 - [Factory Girl](https://github.com/thoughtbot/factory_girl) - A data template factory for producing test data.
 - [FFaker](https://github.com/ffaker/ffaker) - A random data generation library.
 - [Slack-Results](https://github.com/symonk/ruby-automation-slack)- A small gem I wrote to send automation results into a slack group, read the instructions there
+- [I18n-Localisation](https://github.com/svenfuchs/i18n) - Set expectations based on YAML files to account for testing of multilingual applications
+- [Logger](https://ruby-doc.org/stdlib-2.4.0/libdoc/logger/rdoc/Logger.html) - Basic logging of scenarios, each in their own json file when executing in parallel
+- [Report-builder](https://github.com/rajatthareja/ReportBuilder) - Automatically combining json results and dumping a html report in your directory
 
 Installing and using
 --------------------
