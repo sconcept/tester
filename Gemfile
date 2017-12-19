@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
-#ruby '2.4.2'
+# ruby '2.4.2'
 
 # Dependency of gem files (Keep in alphabetical order) =>
+gem 'cucumber' # BDD/Gherkin syntax etc
+gem 'dotenv' # loads environment variables on startup from .env file
+gem 'i18n' # internationalisation / localisation for the framework
 gem 'page-object' # Applying page object design pattern
 gem 'parallel_tests' # Concurrent testing Capabilities
-gem 'pry' #ruby debugging
+gem 'pry' # ruby debugging
 gem 'rake' # Build/tasks and dependencies (Ruby's answer to javas Maven)
+gem 'report_builder' # Turn our cucumber .json results into a html frontend
 gem 'rspec-expectations' # expect syntax
-gem 'dotenv' # loads environment variables on startup from .env file
-gem 'watir' #wrapper on selenium to abstract out interactions
 gem 'selenium-webdriver'
-gem 'cucumber' #BDD/Gherkin syntax etc
-gem 'report_builder' #Turn our cucumber .json results into a html frontend
-gem 'i18n' #internationalisation / localisation for the framework
+gem 'watir' # wrapper on selenium to abstract out interactions
 
 # Test Data Gems =>
 gem 'factory_girl' # test data factory
