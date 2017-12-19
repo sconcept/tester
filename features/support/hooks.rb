@@ -1,5 +1,5 @@
 Before do
-  @test_data_world = Test_Data_World.new
+  @test_data_world = TestDataWorld.new
 end
 
 After do

@@ -1,4 +1,4 @@
-class Test_Data_World
+class TestDataWorld
   def initialize
     @orders = {}
   end
